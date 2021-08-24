@@ -1,0 +1,152 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Common */
+.clear_fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.col {
+    margin: 0 10vw;
+}
+.col_set {
+    float: left;
+}
+.col_half {
+    width: 50%;
+}
+.col_height {
+    height: 560px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+}
+label.nav_text {
+    color: #000;
+    font-size: 25px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.nav ul {
+    float: right;
+    margin-right: 20px;
+}
+.nav .menu_items {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+/* Banner */
+.banner {
+    height: 520px;
+    background-color: #ffe1bd;
+}
+.banner_content {
+    text-align: center;
+    padding: 130px;
+}
+.banner_content .banner_title {
+    margin: 25px 25px 0 25px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner_content .banner_sub {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.banner_content .banner_btn {
+    border-radius: 10vh;
+    border: none;
+    background: #000;
+    font-size: 17px;
+    margin-top: 65px;
+    padding: 8px 16px;
+    color: #bbb;
+    cursor: pointer;
+}
+
+/* Container */
+/* Content */
+.container {
+    width: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.main_content .content_title p {
+    font-size: 50px;
+    text-align: center;
+    margin: 98px 0;
+}
+
+.content_page {
+    width: 100%;
+    height: 520px;
+    display: inline-block;
+    margin-bottom: 128px;
+}
+.content_page_img {
+    padding-right: 100px;
+    padding-left: 50px;
+    width: auto;
+}
+.content_page_img_left {
+    padding-right: 50px;
+    padding-left: 100px;
+    width: auto;
+}
+.content_text_main {
+    margin-left: 10px;
+    width: auto;
+    height: auto;
+}
+.content_text_main_left {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+.content_page_text .text_title {
+    color: #000;
+    margin-bottom: 32px;
+}
+.text_title .small_title {
+    font-size: 30px;
+}
+.text_title .big_title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.content_page_text .text_main {
+    color: #bbb;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.content_page_img {
+    
+}
+.content_btn {
+    margin-top: 32px;
+    padding: 10px 24px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 24px;
+}
