@@ -23,3 +23,25 @@
     color: #Fff;
     transition: 0.5s ease-in-out;
 }
+
+/* White template */
+.contact_social_media .icon_fb_w:hover {
+    background-color: #4267B2;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+.contact_social_media .icon_pt_w:hover {
+    background-color: #EE1B22;
+    color: #000;
+    transition: 0.5s ease-in-out;
+}
+.contact_social_media .icon_tw_w:hover {
+    background-color: #1DA1F2;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.contact_social_media .icon_gh_w:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}

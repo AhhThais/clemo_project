@@ -1,0 +1,25 @@
+.price_banner {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+.price_banner .price_banner_text {
+
+}
+.price_banner_text .price_heading{
+    display: inline-block;
+    font-size: 30px;
+}
+.price_heading .price_number {
+    font-size: 40px;
+}
+.price_banner .price_subheading {
+    display: inline-block;
+    opacity: 0.6;
+    font-size: 30px;
+}
+.price_btn {
+    display: inline-block;
+}
