@@ -1,9 +1,15 @@
+/* Common */
+.text_opa {
+    opacity: 0.6;
+}
+
 .price_banner {
     background-color: #000;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: centers;
+    padding: 75px 0;
 }
 .price_banner .price_banner_text {
 
@@ -12,14 +18,23 @@
     display: inline-block;
     font-size: 30px;
 }
+.price_heading .price_line {
+    margin: 0 32px;
+}
 .price_heading .price_number {
     font-size: 40px;
 }
 .price_banner .price_subheading {
     display: inline-block;
-    opacity: 0.6;
     font-size: 30px;
 }
 .price_btn {
-    display: inline-block;
+    height: 100%;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.price_btn .price_main_btn {
+    padding: 12px 32px;
+    border-radius: 24px;
+    cursor: pointer;
 }

@@ -2,6 +2,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
     scroll-behavior: smooth;
+    line-height: 1.6;
 }
 
 /* Common */
@@ -45,6 +46,18 @@ html, body {
 .active {
     border-bottom: 1px solid #000;
 }
+.content_title {
+    font-size: 50px;
+    text-align: center;
+    margin: 98px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 250;
+}
+.content_subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
 
 /* Header */
 .header {
@@ -74,6 +87,7 @@ label.nav_text a {
     cursor: pointer;
 }
 .nav .menu_items:hover {
+    opacity: 1;
     border-bottom: 1px solid #000;
 }
 .nav li a {
@@ -114,13 +128,6 @@ label.nav_text a {
 /* Container */
 /* Content */
 
-.content_title {
-    font-size: 50px;
-    text-align: center;
-    margin: 98px 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 250;
-}
 .content_page {
     width: 100%;    
     display: inline-block;
@@ -177,9 +184,12 @@ label.nav_text a {
     margin-top: 32px;
     padding: 10px 24px;
     background-color: #fff;
-    border: 1px solid #bbb;
+    border: 1px solid #e2e2e2;
     border-radius: 24px;
     cursor: pointer;
+}
+.content_btn:hover {
+    border: 1px solid #000
 }
 /* Second content */
 .second_content_page {

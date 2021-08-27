@@ -1,0 +1,7 @@
+.title_link {
+    text-decoration: none;
+}
+
+.title_link:hover .text_title {
+    color: #ffe1bd;
+}
