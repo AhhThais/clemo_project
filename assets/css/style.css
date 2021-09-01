@@ -59,6 +59,13 @@ html, body {
     margin-bottom: 100px;
 }
 
+.close {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
+
 /* Header */
 .header {
     width: 100%;
@@ -343,6 +350,23 @@ label.nav_text a {
 }
 .main_form .contact_btn {
     float: left;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 38px;
+    border-radius: 24px;
+    margin-top: 30px;
+}
+
+/* Message after fill contact form */
+.message {
+    text-align: left;
+    font-size: 30px;
+    display: none;
+}
+.message_check {
+    margin-left: 40px;
+}
+.message_btn {
     background-color: #fff;
     color: #000;
     padding: 12px 38px;
