@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./assets/js/index.js"></script>
 </head>
 <body>
     <div class="main">
@@ -73,9 +75,10 @@
             </div>
         </div>
         <div class="contact_map">
-            <img src="./assets/img/map.png" alt="map" class="map_contact_page">
-            <div class="map_location">
-                <i class="ti-location-pin map_location_pin"></i>
+            <div class="map">
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async>
+
+                </script>
             </div>
         </div>
          <!-- Footer -->
